@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+	<meta name="pagina dat gaat over een artikel" content="artikelen">
+	<meta name="artikel, pagina" content="HTML,CSS">
+	<meta name="kwabena appiah-nti" content="Hege Refsnes">
+	<title>artikelpagina</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/master.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<article>
+			<h1>Aanmelden</h1>
+			<p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+			Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.
+			CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.
+			Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+			Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.</p>
+
+			<h2>Contactgegevens:</h2>
+			<form> 
+			naam:    <input type="text" name="naam"><br>
+			bedrijf: <input type="text" name="bedrijf"><br>
+			adres:   <input type="text" name="adres">
+			postcode:<input type="text" name="postcode">
+			plaats:  <input type="text" name="plaats">
+			telefoon:<input type="tel" name="telefoon">
+			email:	 <input type="email" name="email">
+			bedrijf: <input type="text" name="lastname">
+			
+			</form>
+			<h2>ik wil mij aanmelden:</h2>
+			<form>
+				<input type="radio" name="aanmelden" value="voor een project">voor een project<br>
+				<input type="radio" name="aanmelden" value="als stagebedrijf">als stagebedrijf<br>
+			</form>
+			
+			Ik wil mijn aanmelden:
+			! Voor een project
+			! Als stagebedrijf
+			Project
+			Stage
+			1. Titel
+			2. Opdrachtomschrijving
+			3. Doelgroepomschrijving
+			4. Doelstelling/intentievanhetproject 5. Looptijd
+			6. Deadline
+			Geschikt voor
+			1. tweedejaarsstudenten 2. afstudeerstudenten
+			3. onbekend
+			Geschikt voor
+			1. eerstejaarsstudenten 2. tweedejaarsstudenten 3. derdejaarsstudenten 4. afstudeerstudenten
+			5. onbekend
+			1. Hoelangisdestage? - 10 weken
+			- 20 weken 2. Begindatum
+			Beschrijving werkzaamheden:
+			1. Beschrijvingstagewerkzaamheden
+			Project
+			Stage
+			Beschrijving stagebedrijf 1. Bedrijfsnaam
+			2. Adres
+			3. postcode
+			4. Plaats
+			5. Sector
+			6. CoreBusiness
+			Opmerking
+			Opmerking
+		</article>
+	</section>
+
+	<aside>
+		
+	</aside>
+
+	<footer>
+	
+	</footer>
+</body>
+</html>
